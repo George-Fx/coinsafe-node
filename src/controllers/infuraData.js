@@ -11,7 +11,7 @@
 // const COIN_GECKO_API_KEY = process.env.COIN_GECKO_API_KEY;
 // const COIN_GECKO_SIMPLE_PRICE = 'https://api.coingecko.com/api/v3/simple/price';
 
-export const infuraData = async (req, res) => {
+// export const infuraData = async (req, res) => {
   // let providerUrl;
 
   // if (req.body.provider === 'infura.io') {
@@ -78,4 +78,4 @@ export const infuraData = async (req, res) => {
   //   console.error(error);
   //   res.status(500).send({error: 'An error occurred'});
   // }
-};
+// };

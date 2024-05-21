@@ -14,6 +14,7 @@ export const router = express.Router();
 router.post('/swap', swap);
 router.post('/sendToken', sendToken);
 router.post('/sendMatic', sendMatic);
+router.post('/tokenData', tokenData);
 router.post('/estimateFee', estimateFee);
 router.get('/createWallet', createWallet);
 router.post('/restoreWallet', restoreWallet);

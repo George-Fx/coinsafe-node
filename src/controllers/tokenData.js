@@ -1,1 +1,3 @@
-export const tokenData = async () {};
+export const tokenData = async (req, res) {
+  console.log('test');
+};
